@@ -5,4 +5,4 @@ t = tello.Tello()
 t.connect()
 
 print(t.get_battery())
-print(t.get_frame_read())
+print(t.get_barometer())
