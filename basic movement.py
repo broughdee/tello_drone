@@ -5,4 +5,10 @@ t = tello.Tello()
 t.connect()
 
 print(t.get_battery())
-print(t.get_barometer())
+
+t.takeoff()
+t.flip_left()
+t.rotate_clockwise(360)
+t.flip_right()
+t.move_up()
+t.land()
